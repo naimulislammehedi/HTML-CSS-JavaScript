@@ -1,0 +1,61 @@
+Complete Beginner Front-End Development Course (HTML, CSS, JavaScript + Projects)
+================================
+Learn front-end web development from scratch with this complete beginner-friendly playlist. This course is designed for absolute beginners who want to build real websites, real projects, and a strong foundation before React or freelancing.
+
+In this playlist, you’ll learn HTML, CSS, and JavaScript step by step, with hands-on mini projects and portfolio-ready applications. No frameworks, no shortcuts — just solid fundamentals that actually make you employable.
+
+Source Code: https://github.com/naimulislammehedi/HTML-CSS-JavaScript
+
+What you’ll learn in this front-end course:
+================================
+-  HTML fundamentals & semantic HTML
+-  CSS basics, Flexbox, Grid & responsive design
+-  Modern layouts & mobile-first design
+-  JavaScript fundamentals & core logic
+-  DOM manipulation & event handling
+-  Forms, validation & localStorage
+-  Asynchronous JavaScript (Promises, async/await, Fetch API)
+-  Working with real APIs
+-  Clean code, best practices & debugging
+
+Projects you’ll build:
+================================
+-  Personal profile page
+-  Styled responsive webpages
+-  Responsive portfolio website
+-  Interactive to-do list (with localStorage)
+-  Weather app using real API
+-  Quote generator
+-  Modal system & image slider
+-  Expense tracker app
+-  Task manager (CRUD)
+-  Portfolio-ready capstone projects
+
+Who this playlist is for:
+================================
+-  Complete beginners in web development
+-  Students learning HTML, CSS, and JavaScript
+-  Aspiring front-end developers
+-  Freelancers preparing their portfolio
+-  Anyone who wants a strong foundation before React / Next.js
+
+Final outcome:
+================================
+-  By completing this playlist, you’ll be able to:
+-  Build responsive websites with Flexbox & Grid
+-  Write clean, logical vanilla JavaScript
+-  Handle user input, browser storage & APIs
+-  Create 4–6 real portfolio projects
+-  Confidently move to React, Next.js, or freelancing
+
+📌 Start from the first video and follow the playlist in order for best results.
+
+Keywords:
+================================
+HTML tutorial for beginners, CSS tutorial, JavaScript beginner course, front end development course, web development projects, learn front end development, HTML CSS JavaScript projects, beginner web developer roadmap
+
+🌐 Connect with Me:
+================================
+Facebook: naimulislammehedi1
+LinkedIn: naimulislammehedi
+GitHub: naimulislammehedi
