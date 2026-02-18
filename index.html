@@ -1,46 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lists (ordered & unordered)</title>
+  <title>Project Inquiry</title>
 </head>
-
 <body>
- <h2>Student Information</h2>
 
-<table border="1" cellpadding="20" cellspacing="0">
-    <tr>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Department</th>
-        <th>Marks</th>
-    </tr>
+  <h2>Start Your Project</h2>
 
-    <tr>
-        <td>101</td>
-        <td>Rahim</td>
-        <td>CSE</td>
-        <td>85</td>
-    </tr>
+  <form action="/submit-project" method="POST">
 
-    <tr>
-        <td>102</td>
-        <td>Karim</td>
-        <td>EEE</td>
-        <td>78</td>
-    </tr>
+    <!-- Full Name -->
+    <label for="name">Full Name</label><br>
+    <input type="text" id="name" name="fullname" required><br><br>
 
-    <tr>
-        <td>103</td>
-        <td>Ayesha</td>
-        <td>BBA</td>
-        <td>90</td>
-    </tr>
-</table>
+    <!-- Email -->
+    <label for="email">Email Address</label><br>
+    <input type="email" id="email" name="email" required><br><br>
 
+    <!-- Budget -->
+    <label for="budget">Project Budget (USD)</label><br>
+    <input type="number" id="budget" name="budget" min="50" required><br><br>
+
+    <!-- Service Type -->
+    <label>Service Needed</label><br>
+    <input type="radio" name="service" value="website" required> Website Development<br>
+    <input type="radio" name="service" value="seo"> SEO Optimization<br>
+    <input type="radio" name="service" value="automation"> Business Automation<br><br>
+
+    <!-- Project Description -->
+    <label for="details">Project Details</label><br>
+    <textarea id="details" name="description" rows="4" cols="40" required></textarea><br><br>
+
+    <!-- Agreement -->
+    <input type="checkbox" id="agree" name="agreement" required>
+    <label for="agree">I confirm all information is correct</label><br><br>
+
+    <button type="submit">Submit Request</button>
+
+  </form>
 
 </body>
-
 </html>

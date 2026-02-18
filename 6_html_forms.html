@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <!-- 
+    1) data collect 
+    2) data send -> server 
+    -->
+    <h2>Start Your Project</h2>
+
+    <form action="#">
+        <!-- Full Name -->
+        <label for="name">Full Name </label> <br>
+        <input type="text" id="name" name="fullname" required>
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email Address</label> <br>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+
+        <!-- Project Budget (USD) -->
+        <label for="budget">Project Budget (USD)</label> <br>
+        <input type="number" name="budget" id="budget" min="50" required>
+        <br><br>
+
+        <!-- Service Type -->
+        <label>Service Needed</label> <br>
+        <input type="radio" name="service" value="website" required> Website Development <br>
+        <input type="radio" name="service" value="seo" required> SEO Optimization <br>
+        <input type="radio" name="service" value="automation" required> Business Automation
+        <br> <br>
+
+        <!-- Project Description -->
+        <label for="details">Project Details</label>
+        <textarea name="description" rows="4" cols="40" required></textarea>
+        <br><br>
+
+        <!-- Agreement -->
+        <input type="checkbox" name="agreement" id="agree" required>
+        <label for="agreement"> I confirm all information is correct</label>
+        <br><br>
+
+        <button type="submit">Submit Request</button>
+
+    </form>
+
+    <!-- 
+    🎯 Exercise: Student Registration System
+    Create a form with the following requirements:
+
+    🔹 Requirements
+    - Full Name (text, required)
+    - Student ID (text, required)
+    - Email (email type, required)
+    - Department (dropdown/select with options: CSE, EEE, BBA, English)
+    - Gender (radio buttons)
+    - Skills (checkboxes: HTML, CSS, JavaScript, Python)
+    - Date of Birth (date input)
+    - Short Bio (textarea)
+    - Submit button
+    - Reset button
+    -->
+
+</body>
+
+</html>
