@@ -1,0 +1,7 @@
+/* External CSS */
+p {
+    color: red;
+    text-align: center;
+    border: 1px solid green;
+    padding: 10px;
+}

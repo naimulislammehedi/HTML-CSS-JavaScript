@@ -4,7 +4,9 @@ Learn front-end web development from scratch with this complete beginner-friendl
 
 In this playlist, you’ll learn HTML, CSS, and JavaScript step by step, with hands-on mini projects and portfolio-ready applications. No frameworks, no shortcuts — just solid fundamentals that actually make you employable.
 
+Full Playlist: https://www.youtube.com/watch?v=8o64qWM9Odk&list=PLxcGVbaxQB4X3dPeEskdaiWiNAZi5j507&pp=sAgC
 Source Code: https://github.com/naimulislammehedi/HTML-CSS-JavaScript
+
 
 What you’ll learn in this front-end course:
 ================================
