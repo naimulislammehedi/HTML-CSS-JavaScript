@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors (element, class, id)</title>
+
+    <style>
+        /* Styling Requirements:   
+        => All paragraphs → font size 18px
+        => .special → color blue
+        => #title → text-align center */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+        }
+
+        #title {
+            text-align: center;
+            color: red;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .special {
+            color: blue;
+        }
+
+        .section-title {
+            color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 
+    Task:
+    Create a webpage with:
+    => <h1> heading
+    => <p> paragraphs
+    => One paragraph should have class "special"
+    => The <h1> should have id "title"
+    -->
+    <h1 id="title">Welcome to My Webpage</h1>
+    <p class="special">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, eveniet.</p>
+
+    <h2>Places I Want to Visit</h2>
+    <h3 class="section-title">The Great Wall of China</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, at.</p>
+
+    <h3 class="section-title">Paris, France</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, at.</p>
+</body>
+</html>
